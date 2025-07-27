@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+    
+    double calculation;
+    calculation=10+20-40/4*6/2;
+
+System.out.println("answer="+calculation);
+}}
