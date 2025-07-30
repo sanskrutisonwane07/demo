@@ -9,10 +9,8 @@ class Main {
     public static void main(String[] args) {
          Main m=new Main();
         m.getoperation();
-        
         //.getdata();
         m.performop(m);
-        
         System.out.println("Try programiz.pro");
     }
     void getdata()
@@ -30,12 +28,10 @@ class Main {
     {
         num3=num1/num2;
     }
-    
     void Add()
     {
     num3=num1+num2;
     }
-    
     void Sub()
     {
      num3=num1-num2;
@@ -55,7 +51,6 @@ class Main {
          operation=Integer.parseInt(sc.nextLine());
 
     }
-    
     void performop(Main m){
 if(operation>4 || operation<1){
             System.out.println("Invalid input");
